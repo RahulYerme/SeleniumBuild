@@ -13,7 +13,7 @@ public class Jenkinsdemo {
      
 	public void jenkins() {
 		
-		System.setProperty("webdriver.chrome.driver","E:\\New folder\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","E:\\NewCromeDriver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		System.out.println("HI, This is jenkins demo test case");
 		//driver.navigate().to("https://www.amazon.in");
